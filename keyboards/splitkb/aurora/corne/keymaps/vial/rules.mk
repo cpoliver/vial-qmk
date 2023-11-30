@@ -1,22 +1,12 @@
-# -- board/controller -- #
-MCU = RP2040
-BOOTLOADER = rp2040
-BOARD = GENERIC_PROMICRO_RP2040
-
-# -- drivers -- #
-WS2812_DRIVER = vendor
-SERIAL_DRIVER = vendor
-
-# -- steam controller touchpad -- #
-# POINTING_DEVICE_ENABLE = yes
-# POINTING_DEVICE_DRIVER = cirque_pinnacle_i2c
+# -- controller -- #
+CONVERT_TO = liatris
 
 # -- optional hardware -- #
-OLED_ENABLE = no
+OLED_ENABLE = yes
 ENCODER_ENABLE = no
 ENCODER_MAP_ENABLE = no
 RGBLIGHT_ENABLE = yes
-RGB_MATRIX_ENABLE = no
+RGB_MATRIX_ENABLE = yes
 
 # -- usb endpoint -- #
 NKRO_ENABLE = yes
@@ -42,7 +32,8 @@ KEY_OVERRIDE_ENABLE = yes
 QMK_SETTINGS = yes
 REPEAT_KEY_ENABLE = yes
 TAP_DANCE_ENABLE = yes
-# AVR_USE_MINIMAL_PRINTF = yes
-# GRAVE_ESC_ENABLE = no
-# MAGIC_ENABLE = no
-# SPACE_CADET_ENABLE = no
+MAGIC_ENABLE = yes
+
+# AVR_USE_MINIMAL_PRINTF = no
+GRAVE_ESC_ENABLE = no
+SPACE_CADET_ENABLE = no
