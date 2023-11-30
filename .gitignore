@@ -1,3 +1,7 @@
+# Unused keyboards
+keyboards/*
+!keyboards/splitkb/**
+
 # Junk files
 *.bak
 *.swp
