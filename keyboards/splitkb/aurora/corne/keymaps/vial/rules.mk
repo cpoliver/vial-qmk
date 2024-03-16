@@ -1,39 +1,42 @@
 # -- controller -- #
 CONVERT_TO = liatris
 
-# -- optional hardware -- #
-OLED_ENABLE = yes
+# -- encoder -- #
 ENCODER_ENABLE = no
-ENCODER_MAP_ENABLE = no
-RGBLIGHT_ENABLE = yes
-RGB_MATRIX_ENABLE = yes
 
-# -- usb endpoint -- #
-NKRO_ENABLE = yes
-MOUSEKEY_ENABLE = yes
-EXTRAKEY_ENABLE = yes
-CONSOLE_ENABLE = no
-MIDI_ENABLE = no
-RAW_ENABLE = no
-VIRTSER_ENABLE = no
+# -- oled -- #
+OLED_ENABLE = yes
+
+# -- status led -- #
+RGBLIGHT_ENABLE = no
+
+# -- rgb underglow -- #
+RGBLIGHT_ENABLE = yes
+
+# -- rgb per key -- #
+RGB_MATRIX_ENABLE = yes
+# WS2812_DRIVER = vendor
 
 # -- gui editor support -- #
 VIA_ENABLE = yes
 VIAL_ENABLE = yes
 
-# -- security (fix once unlocking works)  -- #
-VIAL_INSECURE = yes
-# SECURE_ENABLE = no
+# -- vial -- #
+# VIAL_INSECURE = yes
+VIALRGB_ENABLE = yes
 
 # -- qmk features -- #
-AUTO_SHIFT_ENABLE = yes
-COMBO_ENABLE = yes
-KEY_OVERRIDE_ENABLE = yes
-QMK_SETTINGS = yes
-REPEAT_KEY_ENABLE = yes
-TAP_DANCE_ENABLE = yes
-MAGIC_ENABLE = yes
+KEY_OVERRIDE_ENABLE = no
+SECURE_ENABLE = no
 
-# AVR_USE_MINIMAL_PRINTF = no
-GRAVE_ESC_ENABLE = no
-SPACE_CADET_ENABLE = no
+AUTO_SHIFT_ENABLE = yes
+CAPS_WORD_ENABLE = yes
+LEADER_ENABLE = yes
+KEY_LOCK_ENABLE = yes
+MOUSEKEY_ENABLE = yes
+OS_DETECTION_ENABLE = yes
+RAW_ENABLE = yes
+REPEAT_KEY_ENABLE = yes
+SEND_STRING_ENABLE = yes
+TRI_LAYER_ENABLE = yes
+WPM_ENABLE = yes
