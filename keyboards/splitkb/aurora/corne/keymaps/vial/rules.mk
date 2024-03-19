@@ -7,15 +7,10 @@ ENCODER_ENABLE = no
 # -- oled -- #
 OLED_ENABLE = yes
 
-# -- status led -- #
-RGBLIGHT_ENABLE = no
-
-# -- rgb underglow -- #
-RGBLIGHT_ENABLE = yes
-
-# -- rgb per key -- #
+# -- rgb leds -- #
 RGB_MATRIX_ENABLE = yes
-# WS2812_DRIVER = vendor
+# RGB_MATRIX_CUSTOM_USER = yes
+WS2812_DRIVER = vendor
 
 # -- gui editor support -- #
 VIA_ENABLE = yes
