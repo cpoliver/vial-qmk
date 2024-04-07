@@ -1,6 +1,7 @@
 # Unused keyboards
-keyboards/*
-!keyboards/splitkb/**
+/keyboards/*
+!/keyboards/splitkb/**
+!/keyboards/kingly_keys/**
 
 # Junk files
 *.bak
@@ -24,6 +25,7 @@ keyboards/*
 *.o
 *.stackdump
 *.sym
+_build
 
 # QMK-specific
 api_data/v1
