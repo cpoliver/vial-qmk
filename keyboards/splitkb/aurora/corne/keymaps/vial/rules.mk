@@ -1,6 +1,9 @@
 # -- controller -- #
 CONVERT_TO = liatris
 
+# -- encoder -- #
+ENCODER_MAP_ENABLE = yes
+
 # -- gui editor support -- #
 VIA_ENABLE = yes
 VIAL_ENABLE = yes
