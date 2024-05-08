@@ -1,7 +1,45 @@
 # Unused keyboards
 /keyboards/*
-!/keyboards/splitkb/**
-!/keyboards/kingly_keys/**
+
+# Allow corne keyboard
+!/keyboards/splitkb
+/keyboards/splitkb/*
+!/keyboards/splitkb/aurora
+/keyboards/splitkb/aurora/*
+!/keyboards/splitkb/aurora/corne
+
+# Allow romac keyboard
+!/keyboards/kingly_keys
+/keyboards/kingly_keys/*
+!/keyboards/kingly_keys/romac
+
+# Unused layouts
+/layouts/community/*
+/layouts/default/*
+
+# Allow corne layout
+!/layouts/community/splitkb
+/layouts/community/splitkb/*
+!/layouts/community/splitkb/aurora
+/layouts/community/splitkb/aurora/*
+!/layouts/community/splitkb/aurora/corne
+
+!/layouts/default/splitkb
+/layouts/default/splitkb/*
+!/layouts/default/splitkb/aurora
+/layouts/default/splitkb/aurora/*
+!/layouts/default/splitkb/aurora/corne
+
+# Allow romac layout
+!/layouts/community/kingly_keys
+/layouts/community/kingly_keys/*
+!/layouts/community/kingly_keys/romac
+
+!/layouts/default/kingly_keys
+/layouts/default/kingly_keys/*
+!/layouts/default/kingly_keys/romac
+
+_rev2
 
 # Junk files
 *.bak
